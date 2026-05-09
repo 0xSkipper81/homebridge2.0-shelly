@@ -12,10 +12,10 @@ that enables HomeKit support for first generation Shelly devices.
 The npm package name is `homebridge-2-0-shelly`. The repository/display name is
 `homebridge2.0-shelly`.
 
-This fork keeps the Homebridge platform alias as `Shelly`, and keeps the
-internal Homebridge plugin identifier as `homebridge-shelly`, so existing
-`config.json` entries and cached accessories can continue to work as a drop-in
-replacement.
+This fork keeps the Homebridge platform alias as `Shelly`, so existing
+`config.json` entries can continue to work when switching from the original
+plugin. The internal Homebridge plugin identifier is `homebridge-2-0-shelly`,
+matching the npm package name expected by Homebridge.
 
 For the next generation, see [homebridge-shelly-ng](https://github.com/alexryd/homebridge-shelly-ng).
 

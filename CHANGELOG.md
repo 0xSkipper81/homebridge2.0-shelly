@@ -8,7 +8,8 @@
   * `homebridge.hap.Formats`
   * `homebridge.hap.Perms`
   * `homebridge.hap.Categories`
-* Kept the existing `Shelly` platform alias and internal
-  `homebridge-shelly` identifier for drop-in compatibility with existing
-  Homebridge configs and cached accessories.
+* Kept the existing `Shelly` platform alias for drop-in compatibility with
+  existing Homebridge configs.
+* Registered the Homebridge plugin identifier as `homebridge-2-0-shelly` to
+  match the npm package name.
 * Added patch credit for 0xSkipper81 while preserving original project credits.
