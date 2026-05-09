@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.20.1
+
+* Removed the optional CLI binary from the npm package to avoid Synology DSM
+  install failures when npm cannot chmod package bin links.
+
 ## 0.20.0
 
 * Forked as `homebridge2.0-shelly` / `homebridge-2-0-shelly`.

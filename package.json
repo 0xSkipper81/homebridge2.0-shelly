@@ -1,12 +1,9 @@
 {
   "name": "homebridge-2-0-shelly",
   "displayName": "homebridge2.0-shelly",
-  "version": "0.20.0",
+  "version": "0.20.1",
   "description": "Homebridge 2.0 compatibility fork of homebridge-shelly",
   "main": "index.js",
-  "bin": {
-    "homebridge-2-0-shelly": "bin/homebridge-shelly"
-  },
   "scripts": {
     "test": "mocha --exit 'test/**/test-*.js'",
     "eslint": "eslint .",
@@ -47,7 +44,6 @@
     "abilities",
     "accessories",
     "admin",
-    "bin",
     "util",
     "config.schema.json",
     "device-wrapper.js",

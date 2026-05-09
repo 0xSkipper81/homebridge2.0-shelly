@@ -80,12 +80,6 @@ homebridge.
    ```sh
    npm install -g homebridge-2-0-shelly
    ```
-   Until the package is published to npm, install directly from GitHub:
-   ```sh
-   npm install -g github:0xSkipper81/homebridge2.0-shelly
-   ```
-   On Synology DSM package installs, use Homebridge Shell and add
-   `--no-bin-links` if npm cannot chmod the optional CLI binary.
 3. Add the configuration to your homebridge config.json.
 
 ## Configuration
@@ -186,10 +180,10 @@ interface of a device, under *Settings -> Device info -> Device ID*.
 If you have a Shelly device that is not yet supported by this plugin you can
 help adding support for it by following these steps:
 
-1. Run `$ homebridge-2-0-shelly describe <ip-address>` with the IP address of the
-   Shelly device.
+1. Open the Shelly device web interface and collect its device type, firmware
+   version, status output and settings output.
 2. Create [a new issue](https://github.com/0xSkipper81/homebridge2.0-shelly/issues)
-   and post the output from the previous command.
+   and post that information.
 
 ## Credits
 Original plugin by [Alexander Rydén](https://github.com/alexryd), published as
